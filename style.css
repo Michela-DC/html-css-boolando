@@ -1,13 +1,13 @@
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
-.product{
+.item{
     width: 480px;
     height: 769px;
-    border: 1px solid black;
     box-sizing: border-box;
     padding: 13px 16px 16px 16px;
+    display: inline-block;
 }
 
 .img_container{
