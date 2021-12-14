@@ -1,0 +1,45 @@
+.product{
+    width: 480px;
+    height: 769px;
+    background-color: green;
+    box-sizing: border-box;
+    padding: 13px 16px 16px 16px;
+}
+
+.img{
+    width: 448px;
+    height: 669px;
+    background-color: blue;
+    position: relative;
+}
+
+.info{
+    width: 448px;
+    height: 63px;
+    background-color: red;
+    margin-top: 8px;
+}
+
+.heart{
+    position: absolute;
+    top: 29px;
+    right: 0;
+    border: 1px solid white;
+}
+
+.offer{
+    width: 152px;
+    height: 44px;
+    border: 1px solid white;
+    color: white;
+    box-sizing: border-box;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.full_price{
+    text-decoration: line-through;
+}
+
+
