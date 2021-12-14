@@ -1,45 +1,77 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 .product{
     width: 480px;
     height: 769px;
-    background-color: green;
+    border: 1px solid black;
     box-sizing: border-box;
     padding: 13px 16px 16px 16px;
 }
 
-.img{
-    width: 448px;
-    height: 669px;
-    background-color: blue;
+.img_container{
     position: relative;
 }
 
-.info{
-    width: 448px;
-    height: 63px;
-    background-color: red;
-    margin-top: 8px;
+.img{
+    width: 446.5px;
+    height: 669px;
 }
 
 .heart{
+    width: 49px;
+    height: 50px;
     position: absolute;
     top: 29px;
     right: 0;
-    border: 1px solid white;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
 }
 
 .offer{
     width: 152px;
     height: 44px;
-    border: 1px solid white;
     color: white;
     box-sizing: border-box;
     padding-top: 10px;
     position: absolute;
-    bottom: 50px;
+    bottom: 16px;
+    font-size: 12px;
+}
+
+.discount{
+    width: 36.4px;
+    height: 25px;
+    background-color: #eb0037;
+    padding: 4px 6px;
+}
+
+.sustainable{
+    width: 84px;
+    height: 25px;
+    background-color: #00875a;
+    padding: 4px 5px;
+}
+
+
+/* DIV INFO ----------------------- */
+
+.info{
+    width: 448px;
+    height: 63px;
+    margin-top: 8px;
+}
+
+.discouted_price{
+    color: #eb0037;
 }
 
 .full_price{
     text-decoration: line-through;
 }
+
 
 
