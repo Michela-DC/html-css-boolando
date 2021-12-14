@@ -2,12 +2,19 @@
     font-family: 'Arial', sans-serif;
 }
 
+.row{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
 .item{
-    width: 480px;
+    /* width: 448px; */
     height: 769px;
     box-sizing: border-box;
-    padding: 13px 16px 16px 16px;
+    padding: 13px 10px 16px 10px; 
     display: inline-block;
+    text-align: left;
 }
 
 .img_container{
@@ -15,7 +22,7 @@
 }
 
 .img{
-    width: 446.5px;
+    width: 448px;
     height: 669px;
 }
 
@@ -70,6 +77,36 @@
 
 .full_price{
     text-decoration: line-through;
+}
+
+/* HOVER --------------------------- */
+
+.heart:hover{
+    color: red;
+}
+
+#first:hover{
+    content: url('img/1b.webp');
+}
+
+#second:hover{
+    content: url('img/2b.webp');
+}
+
+#third:hover{
+    content: url('img/3b.webp');
+}
+
+#fourth:hover{
+    content: url('img/4b.webp');
+}
+
+#fifth:hover{
+    content: url('img/5b.webp');
+}
+
+#sixth:hover{
+    content: url('img/6b.webp');
 }
 
 
