@@ -21,9 +21,13 @@
     position: relative;
 }
 
-.img{
+.img_base, .img_hover{
     width: 448px;
     height: 669px;
+}
+
+.img_hover{
+    display: none;
 }
 
 .heart{
@@ -71,11 +75,11 @@
     margin-top: 8px;
 }
 
-.discouted_price{
+.info span:nth-child(3){
     color: #eb0037;
 }
 
-.full_price{
+.info span:nth-child(4){
     text-decoration: line-through;
 }
 
@@ -85,29 +89,14 @@
     color: red;
 }
 
-#first:hover{
-    content: url('img/1b.webp');
+.img_container:hover .img_base{
+    display: none;
 }
 
-#second:hover{
-    content: url('img/2b.webp');
+.img_container:hover .img_hover{
+    display: initial;
 }
 
-#third:hover{
-    content: url('img/3b.webp');
-}
-
-#fourth:hover{
-    content: url('img/4b.webp');
-}
-
-#fifth:hover{
-    content: url('img/5b.webp');
-}
-
-#sixth:hover{
-    content: url('img/6b.webp');
-}
 
 
 
